@@ -1,0 +1,10 @@
+html, body { font-family: 'Ubuntu', sans-serif; background-color: #ff3e00; padding: 0; }
+.topnav-left { padding-left: 15px !important; }
+.appbrand-spacer { display:block; padding-top:5em; }
+.button-group > button { margin-right: 5px; }
+.has-text-left { text-align: left; }
+.has-text-right { text-align: right !important; }
+.is-spaceless { padding-top:0 !important; }
+.bill-paid { color: #CCC; text-decoration: line-through; }
+.is-vertical-center { display: flex; align-items: center; }
+.bg-white { background-color: #FFFFFF !important; }

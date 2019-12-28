@@ -1,0 +1,47 @@
+{
+  "name": "reactive-spa",
+  "version": "1.0.0",
+  "description": "Reactive SPA",
+  "main": "index.js",
+  "keywords": [
+    "spa",
+    "svelte"
+  ],
+  "author": "Keuller Magalhaes",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --color --hot",
+    "test": "jest src",
+    "test:watch": "jest src --watch",
+    "build": "cross-env NODE_ENV=production webpack",
+    "serve": "serve ./public"
+  },
+  "dependencies": {
+    "history": "^4.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/svelte": "^1.11.0",
+    "babel-jest": "^24.9.0",
+    "bulma": "^0.8.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.4.0",
+    "jest": "^24.9.0",
+    "jest-transform-svelte": "^2.1.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "serve": "^11.2.0",
+    "style-loader": "^1.1.2",
+    "svelte": "^3.16.7",
+    "svelte-jester": "^1.0.3",
+    "svelte-loader": "^2.13.6",
+    "terser-webpack-plugin": "^2.3.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
