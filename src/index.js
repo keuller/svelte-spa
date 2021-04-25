@@ -1,5 +1,5 @@
 import './index.css'
-import 'sass/build.sass'
+import './sass/build.sass'
 import App from './views/App'
 
 const app = new App({

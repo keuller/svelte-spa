@@ -4,7 +4,7 @@
 </script>
 
 <div class="field">
-    <label class="label">{label}</label>
+    <label for="" class="label">{label}</label>
     <p class="control">
         <slot />
     </p>

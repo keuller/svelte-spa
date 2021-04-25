@@ -12,9 +12,8 @@
     })
 
     router.listen((location, action) => {
-        component = selectView(location.pathname)
+        component = selectView(location.location.pathname)
         // ${location.pathname}${location.search}
-        // console.log(`The current URL is ${location.pathname}`)
         // console.log(`The last navigation action was ${action}`)
     })
 

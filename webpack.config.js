@@ -49,13 +49,7 @@ module.exports = {
             }, {
                 test: /\.(css|scss|sass)$/,
                 use: [
-                    { 
-                        loader: MiniCssExtractPlugin.loader,
-                        options: {
-                            esModule: true,
-                            hmr: !isProduction
-                        }
-                    },
+                    MiniCssExtractPlugin.loader,
                     'css-loader',
                     'sass-loader'
                 ]
@@ -65,7 +59,7 @@ module.exports = {
 
     optimization: {
         nodeEnv: process.env.NODE_ENV || 'development',
-        noEmitOnErrors: true,
+        emitOnErrors: true,
         minimize: isProduction,
         minimizer: [new TerserPlugin({
             exclude: /node_modules/

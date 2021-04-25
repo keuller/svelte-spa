@@ -3,7 +3,6 @@ const baseApi = 'https://swapi.co/api'
 
 const headers = {
     method: 'GET',
-    mode: 'cors',
     cache: 'default'
 }
 
