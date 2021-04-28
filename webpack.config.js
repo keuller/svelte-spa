@@ -76,7 +76,8 @@ module.exports = {
     devServer: {
         contentBase: `${basePath}/public`,
         stats: 'minimal',
-        port: 9000,
+        compress: true,
+        port: 3000,
         watchOptions: {
             poll: 2000  // reaload each 2sec
         }

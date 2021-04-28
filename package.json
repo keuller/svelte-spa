@@ -10,7 +10,7 @@
   "author": "Keuller Magalhaes",
   "license": "MIT",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --color --hot",
+    "start": "cross-env NODE_ENV=development webpack serve --color --hot",
     "test": "jest src",
     "test:watch": "jest src --watch",
     "build": "cross-env NODE_ENV=production webpack",

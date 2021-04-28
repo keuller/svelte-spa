@@ -14,7 +14,11 @@
 </script>
 
 <Box>
-    <h4 class="title is-4">Star Wars Characters</h4>
+    <h4 class="title is-4">
+        <span class="block">Star Wars Characters</span>
+        <span class="block is-size-6 has-text-grey-light">We are using https://swapi.dev/</span>
+    </h4>
+
     {#await fetching}
     <h5 class="title is-5">Loading data...</h5>
     {:then data}
@@ -25,6 +29,6 @@
         {/each}
         </ul>
     {:catch error}
-    <p>Error: {error.message}</p>
+    <p>Opps something went wrong! <br/> {error.message}</p>
     {/await}
 </Box>

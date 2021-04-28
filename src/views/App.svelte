@@ -17,7 +17,7 @@
 
 <main>
     <AppMenu />
-    <div class="hero">
+    <div class="hero" style="height: 94vh">
         <Router routes={routes} index={Home} />
     </div>
 </main>

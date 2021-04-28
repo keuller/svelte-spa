@@ -8,3 +8,5 @@ html, body { font-family: 'Ubuntu', sans-serif; background-color: #ff3e00; paddi
 .bill-paid { color: #CCC; text-decoration: line-through; }
 .is-vertical-center { display: flex; align-items: center; }
 .bg-white { background-color: #FFFFFF !important; }
+.list-item { padding-top: 3px; padding-left: 4px; padding-bottom: 3px; }
+.block { display: block; }

@@ -1,5 +1,5 @@
 
-const baseApi = 'https://swapi.co/api'
+const baseApi = 'https://swapi.dev/api'
 
 const headers = {
     method: 'GET',
